@@ -14,3 +14,11 @@ class Estudiante(Persona):
     @codigo.setter
     def codigo(self, valor):
         self.__codigo = valor
+
+    @property
+    def promedio(self):
+        return self.__promedio
+    
+    @promedio.setter
+    def promedio(self, valor):
+        self.__promedio = valor
